@@ -3,11 +3,18 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class = "formu">
+    <div class="formu">
         <h3> Consulta de Produtos</h3>
         <form method="POST" action="consulta_produtos.php">
-            
             <table>
+                <tr>
+                    <td></td>
+                    <td><input type="number" name="cod" placeholder="Código de barras"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="text" name="nome" placeholder="Nome do produto"></td>
+                </tr>
                 <tr>
                     <td></td>
                     <td><input type="text" name="nome" placeholder="Nome do produto"></td>
@@ -23,5 +30,7 @@
             </table>
             <input type="submit" value="Submit">
         </form>
+        <a href="index.php">Voltar a tela inicial</a>
     </div>
 </body>
+</html>
